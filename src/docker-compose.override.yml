@@ -1,0 +1,19 @@
+version: '3.3'
+
+services:
+  ui:
+    volumes:
+      - "./ui/views:/app/views"
+      - "./ui/helpers.rb:/app/helpers.rb"
+      - "./ui/ui_app.rb:/app/ui_app.rb"
+      - "./ui/Gemfile:/app/Gemfile"
+      - "./ui/Gemfile.lock:/app/Gemfile.lock"
+  post:
+    volumes:
+      - "./post-py/post_app.py:/app/post_app.py"
+      - "./post-py/helpers.py:/app/helpers.py"
+  comment:
+    volumes:
+      - "./comment/comment_app.rb:/app/comment_app.rb"
+      - "./comment/helpers.rb:/app/helpers.rb"
+    command: [ "puma", "-w", "2", "--debug" ]
