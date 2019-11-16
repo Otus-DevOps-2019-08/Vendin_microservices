@@ -1,6 +1,29 @@
 # Vendin_microservices
 Vendin microservices repository
 
+## Docker: сети, docker-compose
+
+- Разобраться с типами newtwork
+- Развернуть приложение из несколько контейнеров через CLI `docker run`
+- Развернуть приложение из нескольких контейнеров через docker compose
+- Вынести меняющиеся части в переменные окружения, сделать файл .env.example
+- Добавить docker-compose.override.yml:
+  1. для монтирования актуального кода приложения
+  2. для переопределения процесса в образе comment
+
+Важно для задачи со звездочкой:
+https://github.com/docker/compose/issues/4039#issuecomment-255741965
+https://github.com/docker/compose/issues/4039#issuecomment-269558432
+
+Задать префикс можно через переменную окружения или опцию:
+
+```
+  -p, --project-name NAME     Specify an alternate project name
+                              (default: directory name)
+```
+
+https://github.com/docker/compose/issues/1123#issuecomment-457148264
+
 ## Docker-образы. Микросервисы
 
 - Скачивание исходников микросервисов
