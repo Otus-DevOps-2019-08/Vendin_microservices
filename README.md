@@ -15,6 +15,8 @@ Vendin microservices repository
 https://github.com/docker/compose/issues/4039#issuecomment-255741965
 https://github.com/docker/compose/issues/4039#issuecomment-269558432
 
+В файле docker-compose.override.yml используются несколько томов на файлы и папки вместо одного тома на папку, что бы не перетирался vendor, потому что его нет на хостовой машине.
+
 Задать префикс можно через переменную окружения или опцию:
 
 ```
