@@ -11,7 +11,7 @@ Vendin microservices repository
   1. для монтирования актуального кода приложения
   2. для переопределения процесса в образе comment
 
-Важно для задачи со звездочкой:
+*Важные нюансы для задачи со звездочкой:*
 https://github.com/docker/compose/issues/4039#issuecomment-255741965
 https://github.com/docker/compose/issues/4039#issuecomment-269558432
 
