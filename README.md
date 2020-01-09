@@ -1,6 +1,35 @@
 # Vendin_microservices
 Vendin microservices repository
 
+## Введение в Kubernetes
+
+- Разбор и ознакомление с основными компонентами Kubernetes
+- Создание .yml файлов k8s для приложения reddit
+- Прохождения курса [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
+
+  Пример Deployment: `post-deployment.yml`
+
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: post-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: post
+  template:
+    metadata:
+      name: post
+      labels:
+        app: post
+    spec:
+      containers:
+      - image: post
+        name: post
+```
+
 ## Docker: сети, docker-compose
 
 - Разобраться с типами newtwork
