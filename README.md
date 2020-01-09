@@ -1,6 +1,14 @@
 # Vendin_microservices
 Vendin microservices repository
 
+## Основные модели безопасности и контроллеры в Kubernetes
+
+- Установка Kubernetes
+- Установка [Minikube](https://github.com/kubernetes/minikube)
+- Обновление .yml файлов k8s для приложения reddit
+- Деплой reddit приложения в Minikube и [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine/)
+- Описание GKE кластера в terraform-e для развертывания приложения
+
 ## Введение в Kubernetes
 
 - Разбор и ознакомление с основными компонентами Kubernetes
