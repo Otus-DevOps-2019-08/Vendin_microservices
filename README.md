@@ -1,6 +1,13 @@
 # Vendin_microservices
 Vendin microservices repository
 
+## Kubernetes. Networks ,Storages
+
+- Разбор и ознакомление с тимами Service-ов
+- Разбор и ознакомление с ресурсом GCP Ingress
+- Разбор и ознакомление работы с сетью в K8s
+- Разбор и ознакомление работы с хранилищ в K8s на примере реусурсов PersistentVolume, PersistentVolumeClaim, StorageClass
+
 ## Основные модели безопасности и контроллеры в Kubernetes
 
 - Установка Kubernetes

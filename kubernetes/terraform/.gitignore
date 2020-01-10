@@ -7,3 +7,5 @@
 *.tfstate
 *.tfstate.*
 *.tfvars
+
+docker-257809-9ffb4ad3e114.json
